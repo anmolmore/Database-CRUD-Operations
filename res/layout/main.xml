@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_height="wrap_content" android:id="@+id/textViewMainHeading" android:layout_width="wrap_content" android:text="Slect your choice" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Register" android:id="@+id/buttonMainRegister" android:layout_below="@+id/textViewMainHeading" android:layout_centerHorizontal="true" android:layout_marginTop="70dp"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="View List and Details" android:id="@+id/ButtonMainList" android:layout_below="@+id/textViewMainHeading" android:layout_centerHorizontal="true" android:layout_marginTop="133dp"></Button>
+</RelativeLayout>
